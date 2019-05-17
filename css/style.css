@@ -78,21 +78,21 @@ div.about {
 
 }
 
-h3 {
+p.animation {
   cursor: default;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  width: 100%;
+  width: 80%;
   height: 100px;
   margin: auto;
   display: block;
   text-align: center;
 }
 
-h3 span {
+p span {
   position: relative;
   top: 10px;
   display: inline-block;
@@ -104,55 +104,55 @@ h3 span {
     0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
 }
 
-h3 span:nth-child(2) {
+p span:nth-child(2) {
   -webkit-animation-delay: 0.1s;
 }
 
-h3 span:nth-child(3) {
+p span:nth-child(3) {
   -webkit-animation-delay: 0.2s;
 }
 
-h3 span:nth-child(4) {
+p span:nth-child(4) {
   -webkit-animation-delay: 0.3s;
 }
 
-h3 span:nth-child(5) {
+p span:nth-child(5) {
   -webkit-animation-delay: 0.4s;
 }
 
-h3 span:nth-child(6) {
+p span:nth-child(6) {
   -webkit-animation-delay: 0.5s;
 }
 
-h3 span:nth-child(7) {
+p span:nth-child(7) {
   -webkit-animation-delay: 0.6s;
 }
 
-h3 span:nth-child(8) {
+p span:nth-child(8) {
   -webkit-animation-delay: 0.2s;
 }
 
-h3 span:nth-child(9) {
+p span:nth-child(9) {
   -webkit-animation-delay: 0.3s;
 }
 
-h3 span:nth-child(10) {
+p span:nth-child(10) {
   -webkit-animation-delay: 0.4s;
 }
 
-h3 span:nth-child(11) {
+p span:nth-child(11) {
   -webkit-animation-delay: 0.5s;
 }
 
-h3 span:nth-child(12) {
+p span:nth-child(12) {
   -webkit-animation-delay: 0.6s;
 }
 
-h3 span:nth-child(13) {
+p span:nth-child(13) {
   -webkit-animation-delay: 0.7s;
 }
 
-h3 span:nth-child(14) {
+p span:nth-child(14) {
   -webkit-animation-delay: 0.8s;
 }
 
@@ -186,22 +186,20 @@ td.weight{
   font-weight: bold;
 }
 
-p.reading {
+.reading {
   font-weight: bold;
   font-style: italic;
-  margin-left: 230px;
+  margin-left: 170px;
   color: red;
-  margin-top: 30px;
   text-decoration: underline wavy blue;
   font-size: 20px;
 }
 
-p.watching {
+.watching {
   font-weight: bold;
   font-style: italic;
-  margin-left: 850px;
+  margin-left: 650px;
   color: red;
-  margin-top: -200px;
   text-decoration: underline wavy blue;
   font-size: 20px;
 }
@@ -210,19 +208,6 @@ h2 {
   text-align: center;
   font-style: italic;
   margin-top: -30px;
-}
-
-.movie_style {
-  height: 200px;
-  width: 200px;
-  position: relative;
-  margin-left:670px;
-}
-
-.book_style {
-  height: 200px;
-  width: 200px;
-  position: relative;
 }
 
 .ul_style {
